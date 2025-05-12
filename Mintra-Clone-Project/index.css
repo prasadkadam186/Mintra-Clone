@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.logoImage_Container{
+    margin-left: 4%;
+}
+.logo_Container {
+    height: 45px;
+}
+.actionItem_container {
+    margin-right: 4%;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 500px;
+}
+.navbar-container a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+.navbar-container a:hover{
+    border-bottom: 2px solid #ff3f6c;
+}
+.navbar-container a sup{
+    font-size: 10px;
+    color: #ff3f6c;
+}
+
+/* Search Bar CSS */
+.searchBar_Container{
+    display: flex;
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    background: #f5f5f6;
+}
+.search-Icon{
+    box-sizing: content-box;
+    height: 25px;
+    padding: 8px;
+    background: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+}
+.input_Search{
+    color: #696e79;;
+    background: #f5f5f6;
+    flex-grow: 1;
+    border: 0;
+    height: 40px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+/* Action item CSS */
+.actionItem_container{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.actionBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main CSS */
+.category_banner{
+    margin: 40px 0;
+}
+.banner_images{
+    width: 100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    columns: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.catagory_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.category_images{
+    width:150px;
+}
+.footer_Container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer_column h3{
+    color: #282c3f;
+    text-transform: uppercase;
+}
+.footer_column a{
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.copyRight{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
